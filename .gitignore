@@ -1,2 +1,3 @@
 .idea/
-nodes_modules/
+bin/
+node_modules/
