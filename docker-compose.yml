@@ -23,3 +23,9 @@ services:
       - "8080:80"
     depends_on:
       - mysql
+  access_server:
+    container_name: access_server
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
